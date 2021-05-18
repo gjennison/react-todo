@@ -10,9 +10,9 @@
           align-items: center;
   -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
-  width: 100%;
+  width: calc(100% - 16px);
   padding: 8px;
-  background-color: #97b1a6;
+  background-color: #84E296;
 }
 
 .item img {
@@ -21,12 +21,12 @@
 }
 
 .item:hover {
-  background-color: #ebbab9;
+  background-color: #D4ADCF;
 }
 
 .underline {
   text-decoration: line-through;
-  background: rgba(201, 197, 186, 0.75);
+  background: #856084;
   opacity: 0.5;
 }
 
@@ -43,11 +43,11 @@ input {
 }
 
 input:focus {
-  border-color: #ebbab9;
+  border-color: #D4ADCF;
 }
 
 html {
-  background: #698996;
+  background: #C1CAD6;
 }
 
 .App {

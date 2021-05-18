@@ -9,6 +9,6 @@ input{
     margin-bottom: 16px;
 
     &:focus{
-        border-color: rgb(235, 186, 185);
+        border-color: $tertiary;
     }
 }

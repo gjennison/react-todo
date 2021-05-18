@@ -1,27 +1,28 @@
+
+
 .item{
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: background-color 0.2s;
-    width: 100%;
+    width: calc(100% - 16px);
 
     padding: 8px;
 
-    background-color: rgba(151, 177, 166, 1);
+    background-color: $secondary;
     
     img{
         height: 24px;
         cursor: pointer;
-        // margin-right: 8px;
     }
     
     &:hover{
-        background-color: rgba(235, 186, 185,1);
+        background-color: $tertiary;
     }
 }
 
 .underline{
     text-decoration: line-through;
-    background: rgba(201, 197, 186, 0.75);
+    background: $quaternary;
     opacity: 0.5;
 }
