@@ -1,0 +1,66 @@
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  width: 100%;
+  background-color: #97b1a6;
+}
+
+.item img {
+  height: 24px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.item:hover {
+  background-color: #ebbab9;
+}
+
+.underline {
+  text-decoration: line-through;
+  background: rgba(201, 197, 186, 0.75);
+  opacity: 0.5;
+}
+
+input {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  font-size: 2em;
+  border-bottom: 2px solid rgba(235, 186, 185, 0.2);
+  -webkit-transition: border-color 0.2s;
+  transition: border-color 0.2s;
+  width: 95%;
+  margin-bottom: 16px;
+}
+
+input:focus {
+  border-color: #ebbab9;
+}
+
+html {
+  background: #698996;
+}
+
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  margin-top: 10%;
+  max-width: 600px;
+}
+/*# sourceMappingURL=style.css.map */
