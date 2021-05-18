@@ -23,7 +23,7 @@ export default class Input extends Component{
     render(){
         return(
             <div className="input">
-                <input value={this.state.value} onChange={this.handleChange} onKeyDown={this.onKeyDown} type="text" />
+                <input placeholder="to do" value={this.state.value} onChange={this.handleChange} onKeyDown={this.onKeyDown} type="text" />
                 <div className="button add"></div>
             </div>
         )
